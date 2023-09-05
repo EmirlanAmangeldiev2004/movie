@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 20px 0;
+  &--icons {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  h1 {
+    color: rgb(212, 212, 215);
+  }
+  p {
+    color: rgb(142, 142, 145);
+    font-size: 14px;
+  }
+}
